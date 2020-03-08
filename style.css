@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  /* color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0; */
+}
+
+canvas {
+  background: #f0f0f0;
+  border-radius: 5px;
+  margin: 10px;
+  width: 20%;
+  height: 95vh;
+}
+
+#source {
+  display: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* margin: 0 10px; */
+  flex-wrap: wrap;
+}
